@@ -15,7 +15,6 @@
 		7243168F1B2B68C8009E71FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7243168D1B2B68C8009E71FA /* LaunchScreen.xib */; };
 		7243169B1B2B68C8009E71FA /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243169A1B2B68C8009E71FA /* TodoAppTests.swift */; };
 		724316A71B2B8089009E71FA /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724316A61B2B8089009E71FA /* TaskManager.swift */; };
-		7245A4731B2CE5380019FCCB /* videosplayground in Resources */ = {isa = PBXBuildFile; fileRef = 7245A4721B2CE5380019FCCB /* videosplayground */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,13 @@
 		724316991B2B68C8009E71FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7243169A1B2B68C8009E71FA /* TodoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppTests.swift; sourceTree = "<group>"; };
 		724316A61B2B8089009E71FA /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
-		7245A4721B2CE5380019FCCB /* videosplayground */ = {isa = PBXFileReference; lastKnownFileType = folder; path = videosplayground; sourceTree = SOURCE_ROOT; };
+		7245A4761B2CE8DC0019FCCB /* Video001.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Video001.playground; path = ../../videosplayground/Video001.playground; sourceTree = "<group>"; };
+		7245A4771B2CE8DC0019FCCB /* video002.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = video002.playground; path = ../../videosplayground/video002.playground; sourceTree = "<group>"; };
+		7245A4781B2CE8DC0019FCCB /* Video003.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Video003.playground; path = ../../videosplayground/Video003.playground; sourceTree = "<group>"; };
+		7245A4791B2CE8DC0019FCCB /* Video004.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Video004.playground; path = ../../videosplayground/Video004.playground; sourceTree = "<group>"; };
+		7245A47A1B2CE8DC0019FCCB /* Video005.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Video005.playground; path = ../../videosplayground/Video005.playground; sourceTree = "<group>"; };
+		7245A47B1B2CE8DC0019FCCB /* Video006.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Video006.playground; path = ../../videosplayground/Video006.playground; sourceTree = "<group>"; };
+		7245A47C1B2CE8DC0019FCCB /* Video007.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Video007.playground; path = ../../videosplayground/Video007.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +88,9 @@
 		7243167F1B2B68C8009E71FA /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				7245A4751B2CE8AD0019FCCB /* videosplayground */,
 				724316821B2B68C8009E71FA /* AppDelegate.swift */,
 				724316841B2B68C8009E71FA /* FirstViewController.swift */,
-				7245A4721B2CE5380019FCCB /* videosplayground */,
 				724316861B2B68C8009E71FA /* SecondViewController.swift */,
 				724316881B2B68C8009E71FA /* Main.storyboard */,
 				7243168B1B2B68C8009E71FA /* Images.xcassets */,
@@ -119,6 +124,20 @@
 				724316991B2B68C8009E71FA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7245A4751B2CE8AD0019FCCB /* videosplayground */ = {
+			isa = PBXGroup;
+			children = (
+				7245A4761B2CE8DC0019FCCB /* Video001.playground */,
+				7245A4771B2CE8DC0019FCCB /* video002.playground */,
+				7245A4781B2CE8DC0019FCCB /* Video003.playground */,
+				7245A4791B2CE8DC0019FCCB /* Video004.playground */,
+				7245A47A1B2CE8DC0019FCCB /* Video005.playground */,
+				7245A47B1B2CE8DC0019FCCB /* Video006.playground */,
+				7245A47C1B2CE8DC0019FCCB /* Video007.playground */,
+			);
+			name = videosplayground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +223,6 @@
 				7243168A1B2B68C8009E71FA /* Main.storyboard in Resources */,
 				7243168F1B2B68C8009E71FA /* LaunchScreen.xib in Resources */,
 				7243168C1B2B68C8009E71FA /* Images.xcassets in Resources */,
-				7245A4731B2CE5380019FCCB /* videosplayground in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
