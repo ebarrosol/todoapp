@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		7243168C1B2B68C8009E71FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7243168B1B2B68C8009E71FA /* Images.xcassets */; };
 		7243168F1B2B68C8009E71FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7243168D1B2B68C8009E71FA /* LaunchScreen.xib */; };
 		7243169B1B2B68C8009E71FA /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243169A1B2B68C8009E71FA /* TodoAppTests.swift */; };
+		724316A71B2B8089009E71FA /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724316A61B2B8089009E71FA /* TaskManager.swift */; };
+		7245A4731B2CE5380019FCCB /* videosplayground in Resources */ = {isa = PBXBuildFile; fileRef = 7245A4721B2CE5380019FCCB /* videosplayground */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		724316941B2B68C8009E71FA /* TodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		724316991B2B68C8009E71FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7243169A1B2B68C8009E71FA /* TodoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppTests.swift; sourceTree = "<group>"; };
+		724316A61B2B8089009E71FA /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		7245A4721B2CE5380019FCCB /* videosplayground */ = {isa = PBXFileReference; lastKnownFileType = folder; path = videosplayground; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +85,13 @@
 			children = (
 				724316821B2B68C8009E71FA /* AppDelegate.swift */,
 				724316841B2B68C8009E71FA /* FirstViewController.swift */,
+				7245A4721B2CE5380019FCCB /* videosplayground */,
 				724316861B2B68C8009E71FA /* SecondViewController.swift */,
 				724316881B2B68C8009E71FA /* Main.storyboard */,
 				7243168B1B2B68C8009E71FA /* Images.xcassets */,
 				7243168D1B2B68C8009E71FA /* LaunchScreen.xib */,
 				724316801B2B68C8009E71FA /* Supporting Files */,
+				724316A61B2B8089009E71FA /* TaskManager.swift */,
 			);
 			path = TodoApp;
 			sourceTree = "<group>";
@@ -160,7 +166,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = "Efren Alejandro Barroso Llanes";
+				ORGANIZATIONNAME = EB;
 				TargetAttributes = {
 					7243167C1B2B68C7009E71FA = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -172,7 +178,7 @@
 				};
 			};
 			buildConfigurationList = 724316781B2B68C7009E71FA /* Build configuration list for PBXProject "TodoApp" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -198,6 +204,7 @@
 				7243168A1B2B68C8009E71FA /* Main.storyboard in Resources */,
 				7243168F1B2B68C8009E71FA /* LaunchScreen.xib in Resources */,
 				7243168C1B2B68C8009E71FA /* Images.xcassets in Resources */,
+				7245A4731B2CE5380019FCCB /* videosplayground in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +224,7 @@
 			files = (
 				724316871B2B68C8009E71FA /* SecondViewController.swift in Sources */,
 				724316831B2B68C8009E71FA /* AppDelegate.swift in Sources */,
+				724316A71B2B8089009E71FA /* TaskManager.swift in Sources */,
 				724316851B2B68C8009E71FA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +421,7 @@
 				724316A01B2B68C9009E71FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		724316A11B2B68C9009E71FA /* Build configuration list for PBXNativeTarget "TodoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +430,7 @@
 				724316A31B2B68C9009E71FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
